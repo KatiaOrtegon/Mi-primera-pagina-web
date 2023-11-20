@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--Etiqueta que determina el tipo de archivo como página web--> 
+<head>
+    <title>Página de gatitos</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Página de gatitos</h1>
+    <h3>Imágenes de gatitos</h3>
+    <!--Insertar imágen desde la web-->
+    <img class="img1"   src="https://purina.com.pe/sites/default/files/2022-10/purina-brand-que-saber-de-los-gatitos-bebes.jpg">
+    <!--Insertar imagen desde la compu-->
+    <img class="img2"  src="Imagenes/garu.jpg">
+    <!--Enlaces externos, se usa elemento <a href="">, viene de la palabra anchor, p es paragraph-->
+    <p>Si quieres ver más imágenes de gatitos, <a href="https://imagenesparaperfildewasap.com/animales/gatitos/" target="_blank">da click en este enlace</a>.</p>
+
+    <h3>Listas de gatitos</h3>
+    <!--Comando strong para poner en negritas-->
+    <p>3 cosas que los gatitos <strong>aman</strong></p>
+
+    <!--Lista ordenada-->
+    <ol>
+        <li>Dormir</li>
+        <li>Comer</li>
+        <li>Jugar</li>
+    </ol>
+<!--comando <i> es para letra itálica-->
+    <p>3 cosas que los gatitos <i>odian</i></p>
+    <ul>
+        <li>Bañarse</li>
+        <li>Estar solitos</li>
+        <li>Tener hambre</li>
+    </ul>
+
+    <!--form con botones de radio-->
+    <form>
+        <p>¿Tu gatito es cachorro o adulto?</p>
+        <label>
+            <input id="cachorro" type="radio" value="cachorro" name="form-gatitos" checked>Cachorro <!--"checked" nos permite dejar la casilla marcada de forma predeterminada (opcional)-->
+        </label>
+        <br><!--"Rompe" y crea un espacio-->
+        <label>
+            <input id="Adulto" type="radio" value="Adulto" name="form-gatitos">Adulto
+        </label>
+    </form>
+
+    <!--form con casillas de verifiación-->
+    <form>
+        <p>¿Qué tipo de personalidad tiene tu gatito?</p>
+        <label>
+            <input id="Enojón" type="checkbox" value="Enojón" name="form-personalidad" checked>Enojón
+        </label>
+        <br>
+        <label>
+            <input id="flojo" type="checkbox" value="flojo" name="form-personalidad">Flojo
+        </label>
+        <br>
+        <label>
+            <input id="energico" type="checkbox" value="energico" name="form-personalidad">Enérgico
+        </label>
+    </form>
+</body>
+<footer>
+    <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas PRO</a>.</small></p>
+    <!--target="_blank" nos sirve para que los vínculos se abran en otra ventana-->
+</footer>
